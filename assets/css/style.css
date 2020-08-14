@@ -1,0 +1,101 @@
+/*
+    * absolue : positionne selon un côté de la page
+    * relative : positionne selon la position d'origine
+*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/akahitoha.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.transparent {
+    background-color: #000000;
+    opacity: 0.7;
+}
+
+/* Navigation */
+
+/* .banner-area {
+    height: 100vh;
+    width: 100%;
+    background-color: pink;
+    background-size: cover;
+    background-position: center;
+}
+*/
+
+/* menu de navigation */
+.menu-area {
+    position: static;
+}
+
+/* air du sous menu */
+.mega-area {
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    /* remplisage du sous menu*/
+}
+
+
+.contacts {
+    color: white;
+    position: absolute;
+    width: 35%;
+    left: 0;
+    right: 0;
+    padding: 15px;
+}
+
+#contacts .dropdown-item {
+    color: white;
+
+}
+
+
+/* Sous menu */
+.dropdown-menu {
+    margin-top: 0;
+}
+
+.mega-area .dropdown-item {
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Fonctionnalités liens */
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #F54265;
+}
+
+.mega-area .dropdown-item:hover {
+    background-color: #F54265;
+}
+
+.contacts .nav-item .nav-link:hover {
+    background-color: #F54265;
+}
+
+/* View "à propos" */
+#cv {
+    background-position: center;
+}
+
+#categories {
+    position: relative;
+    top: -250px;
+}
