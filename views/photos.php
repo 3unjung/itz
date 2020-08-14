@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bidule chouette</title>
+  <link rel="icon" href="../assets/img/icon_rena.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="..\assets\css\style.css">
 </head>
@@ -26,10 +27,11 @@
         <?php
         $chatomg = "";
         for ($i = 0; $i < 6; $i++) {
-          $chatomg = $chatomg . '<div class="col-xs-12 col-sm-12 col-md-4 col-lg-2"><article><a href=""><img class="img-fluid" src="../assets/img/omgchat.jpg" alt="OMG !"></a></article><p class="text-center"> <a href="#">view image</a></p></div>';
+          $chatomg = $chatomg . '<div class="col-xs-12 col-sm-12 col-md-4 col-lg-2"><article><a href="../assets/img/omgchat.jpg" target="_blank"><img class="img-fluid" src="../assets/img/omgchat.jpg" alt="OMG !"></a></article><p class="text-center"> <a href="#">view image</a></p></div>';
         }
         echo ($chatomg);
         ?>
+
 
         <?php // include("chatomg.php") 
         ?>
