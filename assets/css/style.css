@@ -1,22 +1,28 @@
 /*
     * absolue : positionne selon un côté de la page
-    * relative : positionne selon la position d'origine
+    * relative : positionne selon la position d'origine et du div le plus proche
 */
 
+/* * {
+    border: solid #000000 1px;
 
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url("../img/akahitoha.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }
+*/
 
+/* Header */
+header {
+    position: fixed;
+    width: 100%;
+}
 
 .transparent {
     background-color: #000000;
     opacity: 0.7;
+}
+
+/* Menu de navigation */
+.menu-area {
+    position: static;
 }
 
 /* Navigation */
@@ -30,12 +36,7 @@ body {
 }
 */
 
-/* menu de navigation */
-.menu-area {
-    position: static;
-}
-
-/* air du sous menu */
+/* Air du sous menu */
 .mega-area {
     color: #fff;
     position: absolute;
@@ -58,9 +59,7 @@ body {
 
 #contacts .dropdown-item {
     color: white;
-
 }
-
 
 /* Sous menu */
 .dropdown-menu {
@@ -86,16 +85,61 @@ body {
     background-color: #F54265;
 }
 
-.contacts .nav-item .nav-link:hover {
+.contacts {
+    color: white;
+}
+
+.contact a{
+    color: white;
+}
+
+.contacts a:hover {
     background-color: #F54265;
 }
 
-/* View "à propos" */
-#cv {
-    background-position: center;
+
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url("../img/akahitoha.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    */
+    background-color: pink;
 }
 
+
+
 #categories {
-    position: relative;
-    top: -250px;
+    position: fixed;
+    top: 225px;
+    width: 15%;
+    border: solid #000000 1px;
+    padding: 15px;
+}
+
+/* Categories */
+#categories,
+h3,
+.nav-item {
+    color: white;
+}
+
+#categories,
+a:active {
+    color: white;
+}
+
+#categories a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #F54265;
+}
+
+/* View*/
+/* about */
+#cv {
+    background-position: center;
 }

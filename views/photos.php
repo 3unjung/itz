@@ -19,52 +19,36 @@
       </div>
     </div>
 
-    <br><br>
+    <?php
+    for ($i = 0; $i < 10; $i++) {
+      echo ("<br>");
+    }
+    ?>
 
     <div class="container">
       <div class="row">
 
         <?php
         $chatomg = "";
-        for ($i = 0; $i < 6; $i++) {
+        for ($i = 0; $i < 36; $i++) {
           $chatomg = $chatomg . '<div class="col-xs-12 col-sm-12 col-md-4 col-lg-2"><article><a href="../assets/img/omgchat.jpg" target="_blank"><img class="img-fluid" src="../assets/img/omgchat.jpg" alt="OMG !"></a></article><p class="text-center"> <a href="#">view image</a></p></div>';
         }
         echo ($chatomg);
         ?>
-
-
-        <?php // include("chatomg.php") 
-        ?>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-lg-4 " id="categories">
-        <h3>Catégories</h3>
-        <ul>
-          <li>
-            <a href="">Un lien se situe ici</a>
-          </li>
-          <li>
-            <a href="">Un lien se situe ici</a>
-          </li>
-          <li>
-            <a href="">Un lien se situe ici</a>
-          </li>
-          <li>
-            <a href="">Un lien se situe ici</a>
-          </li>
-        </ul>
-      </div>
+    <div class="bg-dark" id="categories">
+      <h3>Tag</h3>
+      <?php
+      $tag = "";
+      for ($i = 0; $i < 33; $i++) {
+        $tag = $tag . ' <ul class="navbar-nav"><li><a class="nav-item" href="">Un lien se situe ici</a></li>';
+      }
+      echo ($tag);
 
+      ?>
     </div>
-
-
-
-
-
-
-
 
   </div> <!-- end container fluid -->
 

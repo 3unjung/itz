@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark transparent">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.php"><img id="logo_rena" src="../assets/img/logo_rena.png" alt="Logo Rena" style="width: 150px; height: 150px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="mega-one" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Exercice
                     </a>
-                    <div class="dropdown-menu mega-area transparent" aria-labelledby="mega-one">
+                    <div class="dropdown-menu mega-area bg-dark" aria-labelledby="mega-one">
                         <div class="row">
                             <div class="col-sm-6 col-lg-3">
                                 <h5>PHP</h5>
@@ -58,7 +58,7 @@
                         Réalisations
                     </a>
 
-                    <div class="dropdown-menu mega-area transparent" aria-labelledby="mega-two">
+                    <div class="dropdown-menu mega-area bg-dark" aria-labelledby="mega-two">
                         <div class="row">
                             <div class="col-sm-6 col-lg-3">
                                 <h5>Projets</h5>
@@ -73,8 +73,7 @@
                     <a class="nav-link dropdown-toggle" href="" id="mega-three" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Contact
                     </a>
-
-                    <div class="dropdown-menu contacts transparent" aria-labelledby="mega-three">
+                    <div class="dropdown-menu contacts bg-dark" aria-labelledby="mega-three">
                         <div class="row">
                             <div class="col-sm-6 col-lg-3">
                                 <h5>Mes réseaux</h5>
