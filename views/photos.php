@@ -11,13 +11,11 @@
 </head>
 
 <body>
-
-  <?php include("header.php") ?>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12">
-      </div>
+        <?php include("header.php") ?>
     </div>
+
 
     <?php
     for ($i = 0; $i < 10; $i++) {
@@ -49,7 +47,7 @@
 
       ?>
     </div>
-
+  </div>
   </div> <!-- end container fluid -->
 
   <?php include("scripts.js.php") ?>
