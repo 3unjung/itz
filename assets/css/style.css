@@ -3,15 +3,13 @@
     * relative : positionne selon la position d'origine et du div le plus proche
 */
 
-* {
-    border: solid #000000 1px;
-
+.betatest {
+    border: solid fuchsia 1px;
 }
 
 
 /* Header */
 header {
-    position: fixed;
     width: 100%;
 }
 
@@ -102,16 +100,14 @@ body {
     background-color: pink;
 }
 
-
+/* Categories */
 #categories {
-    position: fixed;
-    top: 225px;
+    position: relative;
+    top: 190px;
     width: 15%;
-    border: solid #000000 1px;
     padding: 15px;
 }
 
-/* Categories */
 #categories,
 h3,
 .nav-item {
@@ -129,20 +125,16 @@ a:active {
     background-color: #F54265;
 }
 
-/* View*/
-/* about */
-#cv {
-    background-position: center;
+/* Footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
-/* cards */
-.card {
-    display: flex;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-}
-
-.block-video {
-    border: solid #000000 1px;
+footer p {
+    text-align: center;
+    justify-content: center;
+    color: white;
 }

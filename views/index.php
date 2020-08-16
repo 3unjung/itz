@@ -11,17 +11,49 @@
 </head>
 
 <body>
+  <!-- HEADER -->
   <?php include("header.php") ?>
+  <!-- END HEADER -->
 
-  <div class="container-fluid">
+
+
+
+
+
+
+  <div class="container justify-content-center">
     <div class="row">
-      <div class="col-12">
+      <div class="col-lg-12 betatest">
+        <h1>Je suis une Princesse !</h1>
+        <p>
+          Mais pas que !
+        </p>
       </div>
-    </div>
-  </div>
+      <div class="row">
+        <div class="col-12">
+        </div>
+      </div>
+    </div> <!-- END ROW -->
+  </div> <!-- END CONTAINER-FLUID  -->
 
-<h1>Je suis une Princesse</h1>
-<h2>Mais pas que !</h2>
+  <footer>
+    <div class="justify-content-center bg-dark">
+      <p>Site create since 03/08/2019-now.</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo consectetur mollitia nostrum?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo consectetur mollitia nostrum?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo consectetur mollitia nostrum?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo consectetur mollitia nostrum?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo consectetur mollitia nostrum?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo consectetur mollitia nostrum?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo consectetur mollitia nostrum?
+      </p>
+      <i class="fas fa-angle-double-up"></i>
+
+
+    </div>
+  </footer>
+
   <?php include("scripts.js.php") ?>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

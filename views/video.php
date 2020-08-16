@@ -57,7 +57,33 @@
                         Sorry, your browser doesn't support embedded videos.
                     </video>
 
+                    <video controls width="250">
 
+                        <source class="img-fluid" src="../assets/img/68631474_2369999263080424_1236980280946851840_n.mp4" type="video/webm">
+
+                        <source class="img-fluid" src="../assets/img/68631474_2369999263080424_1236980280946851840_n.mp4" type="video/webm">
+
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+
+                    <video controls width="250">
+
+                        <source class="img-fluid" src="../assets/img/68631474_2369999263080424_1236980280946851840_n.mp4" type="video/webm">
+
+                        <source class="img-fluid" src="../assets/img/68631474_2369999263080424_1236980280946851840_n.mp4" type="video/webm">
+
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+
+                    <video controls width="250">
+
+                        <source class="img-fluid" src="../assets/img/68631474_2369999263080424_1236980280946851840_n.mp4" type="video/webm">
+
+                        <source class="img-fluid" src="../assets/img/68631474_2369999263080424_1236980280946851840_n.mp4" type="video/webm">
+
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                   
 
                 </div>
 
